@@ -8,21 +8,91 @@
 </head>
 <body>
   <header class="header"> 
-    <nav>
-
+    <div class="container">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"> <a href="#contacts" class="nav__link">Contacts</a></li>
+        <li class="nav__item"> <a href="#about__me" class="nav__link">About me</a></li>
+        <li class="nav__item"> <a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"> <a href="#codeexample" class="nav__link">Code Example</a></li>
+        <li class="nav__item"> <a href="#education" class="nav__link">Education</a></li>
+        <li class="nav__item"> <a href="#projects" class="nav__link">Projects</a></li>
+        <li class="nav__item"> <a href="#languages" class="nav__link">Languages</a></li>
+      </ul>
     </nav>
+  </div>
   </header>
   <main class="main">
-    <h1>Dmitrii Popov</h1>
-    <h2> CV</h2>
-
-  </main>
-  <footer class="footer">
-    <div class="container footer-container">
-      <div>© 2023 
-        <a href="https://github.com/realdmitrii" class="nav-link">realdmitrii</a>
+    <div class="sidebar">
+      <div class="my-image"> <img src="./assets/img/photome.jpg" alt="Photo Dmitrii Popov"></div>
       
-      <a href="https://rs.school/js/" class="rss"> 
+      <div class="contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li><a href="https://github.com/realdmitrii">Github</a></li>
+          <li><a href="https://t.me/realdmitrii">Telegram</a></li>
+          <li><a href="mailto:conceptproect@gmail.com">E-mail</a></li>
+        </ul>
+      </div>
+      <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Figma</li>
+          <li>Github</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="cv-main">
+      <h1>Dmitrii Popov</h1>
+      <h2>Begining Front-end developer</h2>
+
+      <div class="about__me" id="about__me">
+        <h2 class="about__me">About me</h2>
+        <p>Hello. I study Front-end to realize my child's dream of working as a developer. I have chosen exactly front-end because I want to make convenient user-friendly apps </p>
+      </div>
+
+      <div class="codeexample" id="codeexample"> 
+        <h2>Code Example</h2>
+        <pre> 
+          <code>
+            console.log('Hello, World!')
+          </code>
+        </pre>
+      </div>
+
+      <div class="education" id="education">
+        <h2>Education</h2>
+        <p>Perm State Technical Univercity</p>
+        <p>Yandex Front-end developer course</p>
+        <p>JS/FE Pre-School 2023Q2- now</p>
+      </div>
+
+      <div class="projects" id="projects">
+        <h2>Projects</h2>
+        <p><a href="https://realdmitrii.github.io/burgers/">Landing for Burger House</a></p>
+        <p><a href="https://monopoly-client-roan.vercel.app/"> Monopoly the Game - team work</a></p>
+        <p><a href="https://dapper-frangollo-6cdc5f.netlify.app/"> Messenger</a></p>
+      </div>
+
+      <div class="languages" id="languages">
+        <h2>Languages</h2>
+        <p>Russian - native</p>
+        <p>English - B1(Intermediate) </p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div>© 2023 Dmitrii Popov</div>
+      <div>  <a href="https://github.com/realdmitrii" class="nav-link">realdmitrii</a></div>
+      
+      <div><a href="https://rs.school/js/" class="rss"> 
         <img src="./assets/img/rs_school_js.svg" alt="rsschool" width="60">
       </a>
     </div>
